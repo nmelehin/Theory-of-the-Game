@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mind leads to matter — реферат</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,700;1,7..72,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #1c2420;
+      --muted: #4a5750;
+      --paper: #f3efe6;
+      --band: #e4ddd0;
+      --accent: #0f5c4c;
+      --accent-soft: #1a7a66;
+      --rule: #c9c0b0;
+      --figure-bg: #ebe4d8;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse 120% 80% at 10% -10%, #dfece6 0%, transparent 50%),
+        radial-gradient(ellipse 90% 60% at 100% 0%, #e8dcc8 0%, transparent 45%),
+        var(--paper);
+      font-family: "Source Sans 3", system-ui, sans-serif;
+      line-height: 1.65;
+      font-size: 1.05rem;
+    }
+    .wrap {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    header.hero {
+      padding: 2rem 0 1.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 2rem;
+    }
+    .eyebrow {
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 700;
+      margin: 0 0 0.75rem;
+    }
+    h1 {
+      font-family: Literata, Georgia, serif;
+      font-size: clamp(1.85rem, 5vw, 2.6rem);
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+      font-weight: 700;
+    }
+    .lede {
+      font-family: Literata, Georgia, serif;
+      font-size: 1.15rem;
+      color: var(--muted);
+      margin: 0;
+    }
+    h2 {
+      font-family: Literata, Georgia, serif;
+      font-size: 1.45rem;
+      margin: 2.5rem 0 0.85rem;
+      color: var(--accent);
+    }
+    h3 {
+      font-family: Literata, Georgia, serif;
+      font-size: 1.15rem;
+      margin: 1.75rem 0 0.5rem;
+    }
+    p, li { color: var(--ink); }
+    a { color: var(--accent-soft); }
+    blockquote {
+      margin: 1.25rem 0;
+      padding: 0.9rem 1.1rem;
+      border-left: 3px solid var(--accent);
+      background: var(--band);
+      font-family: Literata, Georgia, serif;
+      font-style: italic;
+    }
+    blockquote cite {
+      display: block;
+      margin-top: 0.5rem;
+      font-style: normal;
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-family: "Source Sans 3", sans-serif;
+    }
+    figure {
+      margin: 1.75rem 0;
+      background: var(--figure-bg);
+      padding: 0.75rem;
+      border: 1px solid var(--rule);
+    }
+    figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    figcaption {
+      font-size: 0.88rem;
+      color: var(--muted);
+      padding: 0.65rem 0.25rem 0.15rem;
+      line-height: 1.45;
+    }
+    .toc {
+      background: var(--band);
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0 2rem;
+      border: 1px solid var(--rule);
+    }
+    .toc ol { margin: 0.4rem 0 0; padding-left: 1.25rem; }
+    .toc a { text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+      margin: 1rem 0 1.5rem;
+    }
+    th, td {
+      border: 1px solid var(--rule);
+      padding: 0.55rem 0.7rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--band); font-weight: 700; }
+    .refs ol { padding-left: 1.2rem; }
+    .refs li { margin-bottom: 0.55rem; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--rule);
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+    code { font-size: 0.92em; }
+  </style>
+</head>
+<body>
+  <article class="wrap">
+    <header class="hero">
+      <p class="eyebrow">Реферат · онтология сознания</p>
+      <h1>Mind leads to matter</h1>
+      <p class="lede">
+        Концепция онтологической первичности ума (сознания) по отношению к материи:
+        материальный мир понимается как производный, явленный или «нисходящий» слой
+        ментальной реальности — а не как её первоисточник.
+      </p>
+    </header>
+
+    <nav class="toc" aria-label="Содержание">
+      <strong>Содержание</strong>
+      <ol>
+        <li><a href="#thesis">Тезис и формулировка</a></li>
+        <li><a href="#spectrum">Место на карте онтологий</a></li>
+        <li><a href="#history">Исторические корни</a></li>
+        <li><a href="#modern">Современные версии</a></li>
+        <li><a href="#hall">Связь с учением Manly P. Hall</a></li>
+        <li><a href="#arguments">Аргументы «за» и критика</a></li>
+        <li><a href="#sources">Источники</a></li>
+      </ol>
+    </nav>
+
+    <section id="thesis">
+      <h2>1. Тезис и формулировка</h2>
+      <p>
+        Фраза <em>Mind leads to matter</em> («ум ведёт к материи», «сознание предшествует
+        материи») — это сжатая формула <strong>идеализма</strong> в онтологии: фундаментальным
+        слоем реальности считается ментальное (сознание, идея, дух, универсальный ум), а
+        физический мир — следствие, явление, представление или эманация этого слоя.
+      </p>
+      <p>
+        Важно отличать эту формулу от бытового «mind over matter» («сила воли над телом»).
+        Здесь речь не о мотивационном лозунге, а о <em>порядке бытия</em>: что первично —
+        материя или ум? В идеалистической модели стрелка идёт так:
+      </p>
+      <blockquote>
+        Сознание (или универсальный ум) → паттерны/формы/идеи → то, что мы называем материей.
+        <cite>Схема эманации / явления (см. иллюстрацию ниже)</cite>
+      </blockquote>
+
+      <figure>
+        <img
+          src="illustrations/01-emanation-cascade.png"
+          alt="Каскад: Mind / Consciousness → Ideas / Forms → Matter"
+        />
+        <figcaption>
+          Рис. 1. Каскад «Mind → Ideas/Forms → Matter»: материя как нижний, уплотнённый
+          уровень проявления ума, а не как его причина.
+        </figcaption>
+      </figure>
+
+      <p>
+        В аналитической философии сознания та же идея часто формулируется так: если
+        <em>phenomenal consciousness</em> (то, «каково это» — быть) принять за
+        онтологический примитив, то физические объекты можно трактовать как структуры
+        внутри или «снаружи» сознания — но не как субстанцию, из которой сознание
+        возникает как эпифеномен <a href="#ref-kastrup-2017">[Kastrup 2017]</a>
+        <a href="#ref-sep-idealism">[SEP: Idealism]</a>.
+      </p>
+    </section>
+
+    <section id="spectrum">
+      <h2>2. Место на карте онтологий</h2>
+      <p>
+        Проблема «ум–тело» (mind–body problem) задаёт спектр ответов
+        <a href="#ref-oecs">[OECS]</a>:
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Позиция</th>
+            <th>Что первично</th>
+            <th>Как объясняется другое</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Материализм / физикализм</strong></td>
+            <td>Материя / физические процессы</td>
+            <td>Сознание — продукт мозга (emergent или тождественно нейронным процессам)</td>
+          </tr>
+          <tr>
+            <td><strong>Дуализм</strong></td>
+            <td>Два рода субстанций/свойств</td>
+            <td>Нужна теория взаимодействия (классическая трудность Декарта)</td>
+          </tr>
+          <tr>
+            <td><strong>Идеализм</strong><br /><em>Mind leads to matter</em></td>
+            <td>Ум / сознание</td>
+            <td>Материя — явление, идея, представление или эманация ума</td>
+          </tr>
+          <tr>
+            <td><strong>Панпсихизм / нейтральный монизм</strong></td>
+            <td>Общий фундамент с ментальным аспектом</td>
+            <td>Материя и ум — два аспекта или комбинации одного субстрата</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <figure>
+        <img
+          src="illustrations/02-ontology-spectrum.png"
+          alt="Спектр: Materialism, Dualism, Idealism"
+        />
+        <figcaption>
+          Рис. 2. Три полюса: «Matter leads to Mind» (материализм), параллельные сферы
+          (дуализм) и «Mind leads to Matter» (идеализм).
+        </figcaption>
+      </figure>
+
+      <p>
+        Классический «трудный вопрос сознания» Дэвида Чалмерса
+        <a href="#ref-chalmers">[Chalmers 1995]</a> особенно остёр для материализма:
+        почему вообще есть субъективный опыт, если всё сводится к объективным физическим
+        фактам? Идеализм переворачивает задачу: не «как материя порождает ум», а
+        «почему ум является нам в форме материи».
+      </p>
+    </section>
+
+    <section id="history">
+      <h2>3. Исторические корни</h2>
+
+      <h3>3.1. Платон и неоплатонизм</h3>
+      <p>
+        У Платона чувственный мир — тень мира идей (<em>Государство</em>, аллегория пещеры).
+        У Плотина (<em>Эннеады</em>) разворачивается эманация: Единое → Ум (Nous) → Душа →
+        материальный космос. Материя здесь — крайняя степень «отдаления» от источника света,
+        а не самостоятельная первопричина <a href="#ref-sep-idealism">[SEP: Idealism]</a>.
+      </p>
+
+      <h3>3.2. Беркли: esse est percipi</h3>
+      <p>
+        Джордж Беркли (1710) утверждает: вещи существуют как идеи в уме; «быть — значит
+        быть воспринимаемым». Материальная субстанция как нечто «вне всякого ума»
+        объявляется ненужной и непостижимой. Стабильность мира обеспечивается божественным
+        умом, а не бездушной материей
+        <a href="#ref-berkeley">[Berkeley 1710]</a>
+        <a href="#ref-sep-idealism">[SEP: Idealism]</a>.
+      </p>
+
+      <h3>3.3. Немецкий идеализм</h3>
+      <p>
+        У Канта пространство, время и категории — формы нашего познания; «вещь в себе»
+        остаётся за пределами опыта. У Гегеля реальность разворачивается как Absolute Spirit —
+        рациональный процесс, в котором природа — момент самораскрытия духа
+        <a href="#ref-sep-idealism">[SEP: Idealism]</a>.
+      </p>
+
+      <h3>3.4. Восточные параллели</h3>
+      <p>
+        В Advaita Vedānta Брахман (чистое сознание) — единственная реальность; мир имён и форм
+        (<em>nāma-rūpa</em>) — явление на фоне этого сознания. Формула <em>ātman = brahman</em>
+        смыкается с тезисом «ум (как универсальное сознание) ведёт к материи (как явлению)».
+        В буддийской мысли Нагарджуны ум и тело взаимозависимы, но нет самостоятельной
+        материальной субстанции вне процессов опыта
+        <a href="#ref-wiki-mind">[Philosophy of mind]</a>.
+      </p>
+    </section>
+
+    <section id="modern">
+      <h2>4. Современные версии</h2>
+
+      <h3>4.1. Аналитический идеализм Бернардо Каструпа</h3>
+      <p>
+        Каструп предлагает строго аналитическую онтологию: единственный примитив —
+        универсальное феноменальное сознание. Индивидуальные субъекты — <em>диссоциированные
+        альтеры</em> этого поля (аналогия с DID). «Неодушевлённый» мир — <em>extrinsic
+        appearance</em> (внешнее явление) ментальной активности за пределами нашей
+        диссоциативной границы; другие живые существа — явления других альтеров
+        <a href="#ref-kastrup-2017">[Kastrup 2017]</a>
+        <a href="#ref-kastrup-thesis">[Kastrup 2019]</a>.
+      </p>
+      <blockquote>
+        Matter is a representation or appearance of what is, in and of itself, mental processes.
+        <cite>Bernardo Kastrup, интервью Beshara Magazine («Mind over Matter»)</cite>
+      </blockquote>
+
+      <figure>
+        <img
+          src="illustrations/03-kastrup-appearance.png"
+          alt="Океан универсального сознания и островки личных selves"
+        />
+        <figcaption>
+          Рис. 3. Модель аналитического идеализма: океан универсального сознания;
+          личные «Я» — диссоциированные островки; «материя» — то, как океан выглядит
+          изнутри островка.
+        </figcaption>
+      </figure>
+
+      <h3>4.2. Conscious Realism Дональда Хоффмана</h3>
+      <p>
+        Хоффман утверждает: объективный мир состоит из conscious agents; то, что мы видим как
+        пространство, объекты и «материю», — интерфейс (как иконки рабочего стола),
+        приспособленный эволюцией для приспособленности, а не для истины. Сознание первично;
+        материя и поля зависят от него
+        <a href="#ref-hoffman">[Hoffman, Conscious Realism]</a>.
+      </p>
+
+      <h3>4.3. Чем это не является</h3>
+      <p>
+        «Mind leads to matter» в строгих формулировках <em>не</em> означает, что произвольная
+        фантазия мгновенно меняет физику лаборатории. В берклианстве, у Каструпа и у Хоффмана
+        подчёркивается: мир общий, закономерен и не сводится к капризу личного эго. Меняется
+        <em>онтологический статус</em> материи (явление ума), а не отменяются эмпирические
+        регулярности.
+      </p>
+    </section>
+
+    <section id="hall">
+      <h2>5. Связь с учением Manly P. Hall</h2>
+      <p>
+        В проекте <em>Theory of the Game</em> тезис прямо перекликается с лекцией Hall
+        «Universal and Personal Consciousness» (1958): сознание — не побочный продукт мозга,
+        а фундаментальная сила; универсальное сознание «лучится» в материальную вселенную
+        «как свет из источника»; тело — «хвостовое приложение сознания»
+        (<em>tail-end appendage</em>)
+        <a href="#ref-hall-1958">[Hall 1958]</a>.
+      </p>
+      <p>
+        Космический сюжет Hall — <em>инволюция</em> (единая жизнь дробится на множество форм,
+        энергия «привязывается» к материи) и <em>эволюция</em> (возвращение многообразия к
+        единству). Это классическая эманативная схема «mind → matter» и обратный путь
+        «matter → realization of mind».
+      </p>
+
+      <figure>
+        <img
+          src="illustrations/04-involution-evolution.png"
+          alt="Инволюция вниз к материи и эволюция обратно к Единому"
+        />
+        <figcaption>
+          Рис. 4. Инволюция: Единое / Universal Mind нисходит в многообразие материи.
+          Эволюция: сознательное возвращение к единству.
+        </figcaption>
+      </figure>
+
+      <p>
+        В эссе и лекциях Hall ум часто описывается как <em>средний план</em> между духом и
+        материей (ртуть алхимии, Гермес): сознание управляет телом через ментальную природу;
+        мозг — «продолжение ума вниз в материю»
+        <a href="#ref-hall-alchemy">[Hall, Mental and Spiritual Alchemy]</a>
+        <a href="#ref-hall-healing">[Hall, Healing: The Divine Art]</a>.
+      </p>
+    </section>
+
+    <section id="arguments">
+      <h2>6. Аргументы «за» и критика</h2>
+
+      <h3>Почему тезис привлекателен</h3>
+      <ul>
+        <li>
+          <strong>Экономия онтологии.</strong> Мы непосредственно знаем только опыт; материя
+          «вне опыта» — теоретический конструкт. Идеализм начинает с данного
+          <a href="#ref-kastrup-2017">[Kastrup 2017]</a>.
+        </li>
+        <li>
+          <strong>Обход hard problem.</strong> Не нужно выводить qualia из не-ментальных
+          частиц; ментальное уже фундаментально
+          <a href="#ref-chalmers">[Chalmers 1995]</a>.
+        </li>
+        <li>
+          <strong>Единый мир без солипсизма.</strong> Современные версии (Каструп, Хоффман)
+          сохраняют межсубъектную реальность через трансперсональный ум / сеть агентов.
+        </li>
+      </ul>
+
+      <h3>Основные возражения</h3>
+      <ul>
+        <li>
+          <strong>Успех физики.</strong> Материалисты указывают на предсказательную силу
+          физики и нейронауки: вмешательства в мозг систематически меняют опыт.
+          Идеалист отвечает: корреляция мозг–опыт объясняется тем, что мозг — <em>образ</em>
+          ментального процесса в явлении, а не его производитель
+          <a href="#ref-kastrup-2017">[Kastrup 2017]</a>.
+        </li>
+        <li>
+          <strong>Риск субъективизма.</strong> Если плохо провести различие личного и
+          универсального ума, тезис скатывается в «мир = моя фантазия». Классические и
+          аналитические идеализмы специально блокируют этот ход (Бог Беркли; dissociation
+          Каструпа; agents Хоффмана).
+        </li>
+        <li>
+          <strong>Эпистемическая скромность науки.</strong> Многие философы предпочитают
+          методологический натурализм без сильной онтологии; <em>Mind leads to matter</em>
+          остаётся метафизической гипотезой, а не экспериментальным фактом.
+        </li>
+      </ul>
+    </section>
+
+    <section id="sources" class="refs">
+      <h2>7. Источники</h2>
+      <ol>
+        <li id="ref-sep-idealism">
+          Guyer, P., &amp; Horstmann, R.-P. (rev.).
+          <em>Idealism</em>. Stanford Encyclopedia of Philosophy.
+          <a href="https://plato.stanford.edu/entries/idealism/" rel="noopener">plato.stanford.edu/entries/idealism</a>
+        </li>
+        <li id="ref-berkeley">
+          Berkeley, G. (1710). <em>A Treatise Concerning the Principles of Human Knowledge</em>.
+        </li>
+        <li id="ref-chalmers">
+          Chalmers, D. J. (1995). Facing up to the problem of consciousness.
+          <em>Journal of Consciousness Studies</em>, 2(3), 200–219.
+        </li>
+        <li id="ref-oecs">
+          <em>The Mind–Body Problem</em>. Open Encyclopedia of Cognitive Science (MIT).
+          <a href="https://oecs.mit.edu/pub/7fjwb5k3" rel="noopener">oecs.mit.edu/pub/7fjwb5k3</a>
+        </li>
+        <li id="ref-kastrup-2017">
+          Kastrup, B. (2017). An Ontological Solution to the Mind–Body Problem.
+          <em>Philosophies</em>, 2(2), 10.
+          <a href="https://www.mdpi.com/2409-9287/2/2/10" rel="noopener">doi / MDPI</a>
+        </li>
+        <li id="ref-kastrup-thesis">
+          Kastrup, B. (2019). <em>Analytic Idealism: A consciousness-only ontology</em>
+          (Doctoral dissertation, Radboud University).
+          <a href="https://repository.ubn.ru.nl/bitstream/handle/2066/203090/203090pub.pdf" rel="noopener">PDF</a>
+        </li>
+        <li id="ref-kastrup-interview">
+          Kastrup, B. Interview: «Mind over Matter». <em>Beshara Magazine</em>.
+          <a href="https://besharamagazine.org/metaphysics-spirituality/mind-over-matter/" rel="noopener">besharamagazine.org</a>
+        </li>
+        <li id="ref-hoffman">
+          Hoffman, D. D. <em>Conscious Realism and the Mind–Body Problem</em>.
+          <a href="https://sites.socsci.uci.edu/~ddhoff/MindBody" rel="noopener">UCI page</a>
+        </li>
+        <li id="ref-wiki-mind">
+          <em>Philosophy of mind</em>. Wikipedia (overview of monism / idealism / panpsychism).
+          <a href="https://en.wikipedia.org/wiki/Philosophy_of_mind" rel="noopener">wikipedia.org</a>
+        </li>
+        <li id="ref-hall-1958">
+          Hall, M. P. (1958, July 16). <em>Universal and Personal Consciousness</em>
+          (Exploring Dimensions of Consciousness, lecture 1). Los Angeles.
+          Recording via MindPodNetwork:
+          <a href="https://www.youtube.com/watch?v=ejIt-XSKUkc" rel="noopener">youtube.com/watch?v=ejIt-XSKUkc</a>
+        </li>
+        <li id="ref-hall-alchemy">
+          Hall, M. P. <em>Mental and Spiritual Alchemy</em> (manuscript lecture).
+          <a href="https://www.manlyphall.info/manuscript-lectures/alchemy.htm" rel="noopener">manlyphall.info</a>
+        </li>
+        <li id="ref-hall-healing">
+          Hall, M. P. <em>Healing: The Divine Art</em> (раздел о природе ума).
+          Excerpts:
+          <a href="https://rapeutation.com/cult.divinehealingmanly.7.htm" rel="noopener">rapeutation.com</a>
+        </li>
+      </ol>
+    </section>
+
+    <footer>
+      <p>
+        Реферат подготовлен для репозитория <code>Theory of the Game</code>.
+        Иллюстрации — авторские схемы для учебного сопровождения тезиса
+        <em>Mind leads to matter</em>; они не воспроизводят охраняемые гравюры.
+      </p>
+      <p>
+        См. также интерактивный разбор в
+        <code>canvases/mind-leads-to-matter.canvas.tsx</code>
+        и майндмэп лекции Hall —
+        <code>canvases/universal-consciousness-mindmap.canvas.tsx</code>.
+      </p>
+    </footer>
+  </article>
+</body>
+</html>
