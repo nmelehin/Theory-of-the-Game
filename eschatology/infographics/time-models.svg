@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="460" fill="#f8fafc"/>
+  <text x="600" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Три модели религиозного времени</text>
+
+  <!-- ================= PANEL 1: LINEAR ================= -->
+  <rect x="30" y="70" width="360" height="350" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="210" y="105" text-anchor="middle" font-size="19" font-weight="700" fill="#4338ca">ЛИНИЯ</text>
+  <text x="210" y="128" text-anchor="middle" font-size="13" fill="#64748b">история — одноразовый сюжет с развязкой</text>
+
+  <defs>
+    <marker id="arrowIndigo" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#4338ca"/>
+    </marker>
+    <marker id="arrowTeal" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#0d9488"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#b45309"/>
+    </marker>
+  </defs>
+
+  <line x1="65" y1="230" x2="345" y2="230" stroke="#4338ca" stroke-width="3.5" marker-end="url(#arrowIndigo)"/>
+  <!-- milestones -->
+  <g font-size="12" fill="#334155" text-anchor="middle">
+    <circle cx="85" cy="230" r="7" fill="#4338ca"/>
+    <text x="85" y="205" font-weight="600">Творение</text>
+    <circle cx="150" cy="230" r="7" fill="#6366f1"/>
+    <text x="150" y="258" font-weight="600">История</text>
+    <circle cx="215" cy="230" r="7" fill="#f59e0b"/>
+    <text x="215" y="205" font-weight="600">Кризис</text>
+    <text x="215" y="220" font-size="10" fill="#94a3b8">упадок, знамения</text>
+    <circle cx="280" cy="230" r="7" fill="#dc2626"/>
+    <text x="280" y="258" font-weight="600">Суд</text>
+    <text x="280" y="272" font-size="10" fill="#94a3b8">битва, воскресение</text>
+    <circle cx="333" cy="230" r="7" fill="#16a34a"/>
+    <text x="322" y="205" font-weight="600">Новый мир</text>
+  </g>
+  <text x="210" y="315" text-anchor="middle" font-size="13" fill="#475569">Конец уникален и окончателен.</text>
+  <text x="210" y="334" text-anchor="middle" font-size="13" fill="#475569">Каждый момент невозвратим.</text>
+  <rect x="60" y="360" width="300" height="36" rx="8" fill="#eef2ff"/>
+  <text x="210" y="383" text-anchor="middle" font-size="12.5" font-weight="600" fill="#4338ca">иудаизм · христианство · ислам · зороастризм</text>
+
+  <!-- ================= PANEL 2: CYCLE ================= -->
+  <rect x="420" y="70" width="360" height="350" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="600" y="105" text-anchor="middle" font-size="19" font-weight="700" fill="#0d9488">КРУГ</text>
+  <text x="600" y="128" text-anchor="middle" font-size="13" fill="#64748b">миры возникают и растворяются бесконечно</text>
+
+  <circle cx="600" cy="240" r="72" fill="none" stroke="#0d9488" stroke-width="3.5"/>
+  <path d="M 600 168 A 72 72 0 0 1 668 218" fill="none" stroke="#0d9488" stroke-width="3.5" marker-end="url(#arrowTeal)"/>
+  <path d="M 600 312 A 72 72 0 0 1 532 262" fill="none" stroke="#0d9488" stroke-width="3.5" marker-end="url(#arrowTeal)"/>
+  <g font-size="12" fill="#334155" text-anchor="middle" font-weight="600">
+    <circle cx="600" cy="168" r="6" fill="#16a34a"/>
+    <text x="600" y="152">Золотой век</text>
+    <circle cx="672" cy="240" r="6" fill="#f59e0b"/>
+    <text x="722" y="244">Упадок</text>
+    <circle cx="600" cy="312" r="6" fill="#dc2626"/>
+    <text x="600" y="336">Разрушение</text>
+    <circle cx="528" cy="240" r="6" fill="#0ea5e9"/>
+    <text x="478" y="244">Обновление</text>
+  </g>
+  <text x="600" y="246" text-anchor="middle" font-size="11.5" fill="#94a3b8">юги · кальпы · колесо</text>
+  <rect x="450" y="360" width="300" height="36" rx="8" fill="#f0fdfa"/>
+  <text x="600" y="383" text-anchor="middle" font-size="12.5" font-weight="600" fill="#0d9488">индуизм · буддизм · джайнизм · скандинавы</text>
+
+  <!-- ================= PANEL 3: SPIRAL ================= -->
+  <rect x="810" y="70" width="360" height="350" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="990" y="105" text-anchor="middle" font-size="19" font-weight="700" fill="#b45309">СПИРАЛЬ</text>
+  <text x="990" y="128" text-anchor="middle" font-size="13" fill="#64748b">циклы повторяются, но каждый виток — выше</text>
+
+  <!-- ascending coil: three ellipse loops -->
+  <g fill="none" stroke="#b45309" stroke-width="3">
+    <path d="M 930 310 A 60 20 0 1 1 1050 310"/>
+    <path d="M 1050 310 A 60 20 0 0 1 930 310" stroke-opacity="0.35"/>
+    <path d="M 934 268 A 56 18 0 1 1 1046 268"/>
+    <path d="M 1046 268 A 56 18 0 0 1 934 268" stroke-opacity="0.35"/>
+    <path d="M 938 226 A 52 17 0 1 1 1042 226"/>
+    <path d="M 1042 226 A 52 17 0 0 1 938 226" stroke-opacity="0.35"/>
+    <line x1="990" y1="206" x2="990" y2="172" stroke-width="3.5" marker-end="url(#arrowAmber)"/>
+  </g>
+  <g font-size="11.5" fill="#64748b">
+    <text x="1062" y="314">эпоха 1</text>
+    <text x="1055" y="272">эпоха 2</text>
+    <text x="1048" y="230">эпоха 3</text>
+    <text x="1000" y="182" font-weight="600" fill="#b45309">развитие</text>
+  </g>
+  <text x="990" y="345" text-anchor="middle" font-size="13" fill="#475569">Каждый «конец» открывает новый уровень.</text>
+  <rect x="840" y="360" width="300" height="36" rx="8" fill="#fffbeb"/>
+  <text x="990" y="383" text-anchor="middle" font-size="12.5" font-weight="600" fill="#b45309">бахаи · каббала (тиккун) · отчасти джайнизм</text>
+
+  <text x="600" y="445" text-anchor="middle" font-size="12" fill="#94a3b8">Эсхатология мировых религий · инфографика 1 из 3</text>
+</svg>
