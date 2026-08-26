@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="670" fill="#f8fafc"/>
+  <text x="600" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Точки конвергенции эсхатологий</text>
+  <text x="600" y="68" text-anchor="middle" font-size="14" fill="#64748b">8 повторяющихся мотивов × 10 традиций</text>
+
+  <defs>
+    <g id="sym-full">
+      <circle r="9" fill="#4338ca"/>
+    </g>
+    <g id="sym-half">
+      <circle r="9" fill="#ffffff" stroke="#4338ca" stroke-width="1.8"/>
+      <path d="M 0 -9 A 9 9 0 0 1 0 9 Z" fill="#4338ca"/>
+    </g>
+    <g id="sym-empty">
+      <circle r="9" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.8"/>
+    </g>
+  </defs>
+
+  <!-- column headers (rotated) -->
+  <g font-size="13" font-weight="600" fill="#334155">
+    <text transform="rotate(-38 366 158)" x="366" y="158">Иудаизм</text>
+    <text transform="rotate(-38 438 158)" x="438" y="158">Христианство</text>
+    <text transform="rotate(-38 510 158)" x="510" y="158">Ислам</text>
+    <text transform="rotate(-38 582 158)" x="582" y="158">Зороастризм</text>
+    <text transform="rotate(-38 654 158)" x="654" y="158">Индуизм</text>
+    <text transform="rotate(-38 726 158)" x="726" y="158">Буддизм</text>
+    <text transform="rotate(-38 798 158)" x="798" y="158">Джайнизм</text>
+    <text transform="rotate(-38 870 158)" x="870" y="158">Даосизм</text>
+    <text transform="rotate(-38 942 158)" x="942" y="158">Скандинавы</text>
+    <text transform="rotate(-38 1014 158)" x="1014" y="158">Коренные</text>
+    <text x="1105" y="158" text-anchor="middle" fill="#94a3b8" font-size="12">охват</text>
+  </g>
+
+  <!-- row stripes -->
+  <g>
+    <rect x="36" y="170" width="1128" height="52" rx="8" fill="#ffffff"/>
+    <rect x="36" y="222" width="1128" height="52" rx="8" fill="#f1f5f9"/>
+    <rect x="36" y="274" width="1128" height="52" rx="8" fill="#ffffff"/>
+    <rect x="36" y="326" width="1128" height="52" rx="8" fill="#f1f5f9"/>
+    <rect x="36" y="378" width="1128" height="52" rx="8" fill="#ffffff"/>
+    <rect x="36" y="430" width="1128" height="52" rx="8" fill="#f1f5f9"/>
+    <rect x="36" y="482" width="1128" height="52" rx="8" fill="#ffffff"/>
+    <rect x="36" y="534" width="1128" height="52" rx="8" fill="#f1f5f9"/>
+  </g>
+
+  <!-- row labels -->
+  <g font-size="13.5" font-weight="600" fill="#0f172a" text-anchor="end">
+    <text x="318" y="201">Моральный упадок перед концом</text>
+    <text x="318" y="253">Фигура спасителя</text>
+    <text x="318" y="305">Фигура обманщика</text>
+    <text x="318" y="357">Финальная битва добра и зла</text>
+    <text x="318" y="409">Суд / взвешивание дел</text>
+    <text x="318" y="461">Воскресение мёртвых</text>
+    <text x="318" y="513">Очищение огнём / катаклизм</text>
+    <text x="318" y="565">Новый мир / золотой век</text>
+  </g>
+
+  <!-- Row 1 -->
+  <g>
+    <use href="#sym-full" x="366" y="196"/><use href="#sym-full" x="438" y="196"/><use href="#sym-full" x="510" y="196"/><use href="#sym-full" x="582" y="196"/><use href="#sym-full" x="654" y="196"/><use href="#sym-full" x="726" y="196"/><use href="#sym-full" x="798" y="196"/><use href="#sym-full" x="870" y="196"/><use href="#sym-full" x="942" y="196"/><use href="#sym-full" x="1014" y="196"/>
+    <text x="1105" y="201" text-anchor="middle" font-size="13" font-weight="700" fill="#16a34a">10/10</text>
+  </g>
+  <!-- Row 2 -->
+  <g>
+    <use href="#sym-full" x="366" y="248"/><use href="#sym-full" x="438" y="248"/><use href="#sym-full" x="510" y="248"/><use href="#sym-full" x="582" y="248"/><use href="#sym-full" x="654" y="248"/><use href="#sym-full" x="726" y="248"/><use href="#sym-empty" x="798" y="248"/><use href="#sym-full" x="870" y="248"/><use href="#sym-half" x="942" y="248"/><use href="#sym-half" x="1014" y="248"/>
+    <text x="1105" y="253" text-anchor="middle" font-size="13" font-weight="700" fill="#16a34a">9/10</text>
+  </g>
+  <!-- Row 3 -->
+  <g>
+    <use href="#sym-half" x="366" y="300"/><use href="#sym-full" x="438" y="300"/><use href="#sym-full" x="510" y="300"/><use href="#sym-half" x="582" y="300"/><use href="#sym-half" x="654" y="300"/><use href="#sym-empty" x="726" y="300"/><use href="#sym-empty" x="798" y="300"/><use href="#sym-half" x="870" y="300"/><use href="#sym-full" x="942" y="300"/><use href="#sym-empty" x="1014" y="300"/>
+    <text x="1105" y="305" text-anchor="middle" font-size="13" font-weight="700" fill="#d97706">7/10</text>
+  </g>
+  <!-- Row 4 -->
+  <g>
+    <use href="#sym-full" x="366" y="352"/><use href="#sym-full" x="438" y="352"/><use href="#sym-full" x="510" y="352"/><use href="#sym-full" x="582" y="352"/><use href="#sym-full" x="654" y="352"/><use href="#sym-half" x="726" y="352"/><use href="#sym-empty" x="798" y="352"/><use href="#sym-half" x="870" y="352"/><use href="#sym-full" x="942" y="352"/><use href="#sym-half" x="1014" y="352"/>
+    <text x="1105" y="357" text-anchor="middle" font-size="13" font-weight="700" fill="#16a34a">9/10</text>
+  </g>
+  <!-- Row 5 -->
+  <g>
+    <use href="#sym-full" x="366" y="404"/><use href="#sym-full" x="438" y="404"/><use href="#sym-full" x="510" y="404"/><use href="#sym-full" x="582" y="404"/><use href="#sym-half" x="654" y="404"/><use href="#sym-half" x="726" y="404"/><use href="#sym-half" x="798" y="404"/><use href="#sym-half" x="870" y="404"/><use href="#sym-empty" x="942" y="404"/><use href="#sym-half" x="1014" y="404"/>
+    <text x="1105" y="409" text-anchor="middle" font-size="13" font-weight="700" fill="#16a34a">9/10</text>
+  </g>
+  <!-- Row 6 -->
+  <g>
+    <use href="#sym-full" x="366" y="456"/><use href="#sym-full" x="438" y="456"/><use href="#sym-full" x="510" y="456"/><use href="#sym-full" x="582" y="456"/><use href="#sym-empty" x="654" y="456"/><use href="#sym-empty" x="726" y="456"/><use href="#sym-empty" x="798" y="456"/><use href="#sym-empty" x="870" y="456"/><use href="#sym-half" x="942" y="456"/><use href="#sym-full" x="1014" y="456"/>
+    <text x="1105" y="461" text-anchor="middle" font-size="13" font-weight="700" fill="#d97706">6/10</text>
+  </g>
+  <!-- Row 7 -->
+  <g>
+    <use href="#sym-half" x="366" y="508"/><use href="#sym-full" x="438" y="508"/><use href="#sym-full" x="510" y="508"/><use href="#sym-full" x="582" y="508"/><use href="#sym-full" x="654" y="508"/><use href="#sym-half" x="726" y="508"/><use href="#sym-empty" x="798" y="508"/><use href="#sym-full" x="870" y="508"/><use href="#sym-full" x="942" y="508"/><use href="#sym-half" x="1014" y="508"/>
+    <text x="1105" y="513" text-anchor="middle" font-size="13" font-weight="700" fill="#16a34a">9/10</text>
+  </g>
+  <!-- Row 8 -->
+  <g>
+    <use href="#sym-full" x="366" y="560"/><use href="#sym-full" x="438" y="560"/><use href="#sym-full" x="510" y="560"/><use href="#sym-full" x="582" y="560"/><use href="#sym-full" x="654" y="560"/><use href="#sym-full" x="726" y="560"/><use href="#sym-full" x="798" y="560"/><use href="#sym-full" x="870" y="560"/><use href="#sym-full" x="942" y="560"/><use href="#sym-full" x="1014" y="560"/>
+    <text x="1105" y="565" text-anchor="middle" font-size="13" font-weight="700" fill="#16a34a">10/10</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="13" fill="#475569">
+    <use href="#sym-full" x="330" y="614"/><text x="346" y="619">мотив выражен явно</text>
+    <use href="#sym-half" x="530" y="614"/><text x="546" y="619">присутствует частично / косвенно</text>
+    <use href="#sym-empty" x="800" y="614"/><text x="816" y="619">отсутствует</text>
+  </g>
+  <text x="600" y="652" text-anchor="middle" font-size="12" fill="#94a3b8">«Моральный упадок» и «новый мир после конца» — универсальны; «воскресение мёртвых» — почти исключительно иранско-авраамический мотив · инфографика 3 из 3</text>
+</svg>

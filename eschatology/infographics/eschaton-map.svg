@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="830" viewBox="0 0 1200 830" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="830" fill="#f8fafc"/>
+  <text x="600" y="46" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Карта эсхатологий мировых религий</text>
+  <text x="600" y="74" text-anchor="middle" font-size="14" fill="#64748b">кто спасает, чем всё кончается и что наступает после — в 12 традициях</text>
+
+  <!-- legend -->
+  <g font-size="12.5" fill="#475569">
+    <circle cx="270" cy="112" r="6" fill="#4338ca"/><text x="282" y="117">авраамические</text>
+    <circle cx="420" cy="112" r="6" fill="#7c3aed"/><text x="432" y="117">иранская</text>
+    <circle cx="530" cy="112" r="6" fill="#0d9488"/><text x="542" y="117">дхармические</text>
+    <circle cx="670" cy="112" r="6" fill="#b45309"/><text x="682" y="117">Восточная Азия</text>
+    <circle cx="820" cy="112" r="6" fill="#be123c"/><text x="832" y="117">другие традиции</text>
+  </g>
+
+  <!-- ============ ROW 1 ============ -->
+  <!-- Иудаизм -->
+  <g>
+    <rect x="26" y="150" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M26 162 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#4338ca"/>
+    <text x="42" y="192" font-size="17" font-weight="700" fill="#0f172a">Иудаизм</text>
+    <rect x="222" y="176" width="60" height="20" rx="10" fill="#eef2ff"/>
+    <text x="252" y="190" text-anchor="middle" font-size="10.5" font-weight="600" fill="#4338ca">линия</text>
+    <text x="42" y="222" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="42" y="240" font-size="12.5" font-weight="600" fill="#334155">Машиах — царь из рода Давида</text>
+    <text x="42" y="268" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="42" y="286" font-size="12.5" font-weight="600" fill="#334155">война Гога и Магога, воскресение</text>
+    <text x="42" y="314" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="42" y="332" font-size="12.5" font-weight="600" fill="#334155">мессианская эра, Олам ха-ба</text>
+  </g>
+  <!-- Христианство -->
+  <g>
+    <rect x="316" y="150" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M316 162 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#4338ca"/>
+    <text x="332" y="192" font-size="17" font-weight="700" fill="#0f172a">Христианство</text>
+    <rect x="512" y="176" width="60" height="20" rx="10" fill="#eef2ff"/>
+    <text x="542" y="190" text-anchor="middle" font-size="10.5" font-weight="600" fill="#4338ca">линия</text>
+    <text x="332" y="222" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="332" y="240" font-size="12.5" font-weight="600" fill="#334155">Христос — Второе пришествие</text>
+    <text x="332" y="268" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="332" y="286" font-size="12.5" font-weight="600" fill="#334155">Армагеддон, Страшный суд</text>
+    <text x="332" y="314" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="332" y="332" font-size="12.5" font-weight="600" fill="#334155">новое небо и новая земля</text>
+  </g>
+  <!-- Ислам -->
+  <g>
+    <rect x="606" y="150" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M606 162 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#4338ca"/>
+    <text x="622" y="192" font-size="17" font-weight="700" fill="#0f172a">Ислам</text>
+    <rect x="802" y="176" width="60" height="20" rx="10" fill="#eef2ff"/>
+    <text x="832" y="190" text-anchor="middle" font-size="10.5" font-weight="600" fill="#4338ca">линия</text>
+    <text x="622" y="222" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="622" y="240" font-size="12.5" font-weight="600" fill="#334155">Махди + Иса (Иисус)</text>
+    <text x="622" y="268" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="622" y="286" font-size="12.5" font-weight="600" fill="#334155">Кыямат: весы Мизан, мост Сират</text>
+    <text x="622" y="314" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="622" y="332" font-size="12.5" font-weight="600" fill="#334155">Джанна (рай) / Джаханнам (ад)</text>
+  </g>
+  <!-- Зороастризм -->
+  <g>
+    <rect x="896" y="150" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M896 162 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#7c3aed"/>
+    <text x="912" y="192" font-size="17" font-weight="700" fill="#0f172a">Зороастризм</text>
+    <rect x="1092" y="176" width="60" height="20" rx="10" fill="#f5f3ff"/>
+    <text x="1122" y="190" text-anchor="middle" font-size="10.5" font-weight="600" fill="#7c3aed">линия</text>
+    <text x="912" y="222" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="912" y="240" font-size="12.5" font-weight="600" fill="#334155">Саошьянт, рождённый от девы</text>
+    <text x="912" y="268" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="912" y="286" font-size="12.5" font-weight="600" fill="#334155">Фрашокерети: река металла</text>
+    <text x="912" y="314" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="912" y="332" font-size="12.5" font-weight="600" fill="#334155">совершенный мир — для всех</text>
+  </g>
+
+  <!-- ============ ROW 2 ============ -->
+  <!-- Индуизм -->
+  <g>
+    <rect x="26" y="368" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M26 380 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#0d9488"/>
+    <text x="42" y="410" font-size="17" font-weight="700" fill="#0f172a">Индуизм</text>
+    <rect x="222" y="394" width="60" height="20" rx="10" fill="#f0fdfa"/>
+    <text x="252" y="408" text-anchor="middle" font-size="10.5" font-weight="600" fill="#0d9488">круг</text>
+    <text x="42" y="440" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="42" y="458" font-size="12.5" font-weight="600" fill="#334155">Калки — 10-й аватар Вишну</text>
+    <text x="42" y="486" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="42" y="504" font-size="12.5" font-weight="600" fill="#334155">конец Кали-юги; пралайя</text>
+    <text x="42" y="532" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="42" y="550" font-size="12.5" font-weight="600" fill="#334155">новая Сатья-юга (золотой век)</text>
+  </g>
+  <!-- Буддизм -->
+  <g>
+    <rect x="316" y="368" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M316 380 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#0d9488"/>
+    <text x="332" y="410" font-size="17" font-weight="700" fill="#0f172a">Буддизм</text>
+    <rect x="512" y="394" width="60" height="20" rx="10" fill="#f0fdfa"/>
+    <text x="542" y="408" text-anchor="middle" font-size="10.5" font-weight="600" fill="#0d9488">круг</text>
+    <text x="332" y="440" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="332" y="458" font-size="12.5" font-weight="600" fill="#334155">Майтрея — будущий Будда</text>
+    <text x="332" y="486" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="332" y="504" font-size="12.5" font-weight="600" fill="#334155">упадок и исчезновение Дхармы</text>
+    <text x="332" y="532" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="332" y="550" font-size="12.5" font-weight="600" fill="#334155">новая эпоха Дхармы</text>
+  </g>
+  <!-- Джайнизм -->
+  <g>
+    <rect x="606" y="368" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M606 380 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#0d9488"/>
+    <text x="622" y="410" font-size="17" font-weight="700" fill="#0f172a">Джайнизм</text>
+    <rect x="802" y="394" width="60" height="20" rx="10" fill="#f0fdfa"/>
+    <text x="832" y="408" text-anchor="middle" font-size="10.5" font-weight="600" fill="#0d9488">круг</text>
+    <text x="622" y="440" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="622" y="458" font-size="12.5" font-weight="600" fill="#334155">нет — колесо вращается само</text>
+    <text x="622" y="486" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="622" y="504" font-size="12.5" font-weight="600" fill="#334155">смена полуоборотов колеса</text>
+    <text x="622" y="532" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="622" y="550" font-size="12.5" font-weight="600" fill="#334155">утсарпини — эпоха подъёма</text>
+  </g>
+  <!-- Сикхизм -->
+  <g>
+    <rect x="896" y="368" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M896 380 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#0d9488"/>
+    <text x="912" y="410" font-size="17" font-weight="700" fill="#0f172a">Сикхизм</text>
+    <rect x="1092" y="394" width="60" height="20" rx="10" fill="#f0fdfa"/>
+    <text x="1122" y="408" text-anchor="middle" font-size="10.5" font-weight="600" fill="#0d9488">круг</text>
+    <text x="912" y="440" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="912" y="458" font-size="12.5" font-weight="600" fill="#334155">нет мессианской фигуры</text>
+    <text x="912" y="486" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="912" y="504" font-size="12.5" font-weight="600" fill="#334155">растворение миров по воле Бога</text>
+    <text x="912" y="532" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="912" y="550" font-size="12.5" font-weight="600" fill="#334155">новые творения; лично — мукти</text>
+  </g>
+
+  <!-- ============ ROW 3 ============ -->
+  <!-- Даосизм -->
+  <g>
+    <rect x="26" y="586" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M26 598 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#b45309"/>
+    <text x="42" y="628" font-size="17" font-weight="700" fill="#0f172a">Даосизм (религ.)</text>
+    <rect x="222" y="612" width="60" height="20" rx="10" fill="#fffbeb"/>
+    <text x="252" y="626" text-anchor="middle" font-size="10.5" font-weight="600" fill="#b45309">круг</text>
+    <text x="42" y="658" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="42" y="676" font-size="12.5" font-weight="600" fill="#334155">Ли Хун — возвращение Лао-цзы</text>
+    <text x="42" y="704" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="42" y="722" font-size="12.5" font-weight="600" fill="#334155">катаклизм; «семенные люди»</text>
+    <text x="42" y="750" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="42" y="768" font-size="12.5" font-weight="600" fill="#334155">Тайпин — Великое равновесие</text>
+  </g>
+  <!-- Бахаи -->
+  <g>
+    <rect x="316" y="586" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M316 598 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#be123c"/>
+    <text x="332" y="628" font-size="17" font-weight="700" fill="#0f172a">Бахаи</text>
+    <rect x="504" y="612" width="68" height="20" rx="10" fill="#fff1f2"/>
+    <text x="538" y="626" text-anchor="middle" font-size="10.5" font-weight="600" fill="#be123c">спираль</text>
+    <text x="332" y="658" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="332" y="676" font-size="12.5" font-weight="600" fill="#334155">Бахаулла — уже пришёл</text>
+    <text x="332" y="704" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="332" y="722" font-size="12.5" font-weight="600" fill="#334155">«конец света» = смена эпох</text>
+    <text x="332" y="750" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="332" y="768" font-size="12.5" font-weight="600" fill="#334155">Величайший мир человечества</text>
+  </g>
+  <!-- Скандинавы -->
+  <g>
+    <rect x="606" y="586" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M606 598 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#be123c"/>
+    <text x="622" y="628" font-size="17" font-weight="700" fill="#0f172a">Скандинавы</text>
+    <rect x="802" y="612" width="60" height="20" rx="10" fill="#fff1f2"/>
+    <text x="832" y="626" text-anchor="middle" font-size="10.5" font-weight="600" fill="#be123c">круг</text>
+    <text x="622" y="658" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="622" y="676" font-size="12.5" font-weight="600" fill="#334155">Бальдр — возвращается после</text>
+    <text x="622" y="704" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="622" y="722" font-size="12.5" font-weight="600" fill="#334155">Рагнарёк: гибель богов, огонь</text>
+    <text x="622" y="750" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="622" y="768" font-size="12.5" font-weight="600" fill="#334155">новая земля, Лив и Ливтрасир</text>
+  </g>
+  <!-- Хопи и коренные -->
+  <g>
+    <rect x="896" y="586" width="272" height="200" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M896 598 a12 12 0 0 1 12-12 h248 a12 12 0 0 1 12 12 z" fill="#be123c"/>
+    <text x="912" y="628" font-size="17" font-weight="700" fill="#0f172a">Хопи и коренные</text>
+    <rect x="1092" y="612" width="60" height="20" rx="10" fill="#fff1f2"/>
+    <text x="1122" y="626" text-anchor="middle" font-size="10.5" font-weight="600" fill="#be123c">круг</text>
+    <text x="912" y="658" font-size="10" letter-spacing="1" fill="#94a3b8">СПАСИТЕЛЬ</text>
+    <text x="912" y="676" font-size="12.5" font-weight="600" fill="#334155">Пахана — «истинный белый брат»</text>
+    <text x="912" y="704" font-size="10" letter-spacing="1" fill="#94a3b8">ФИНАЛЬНОЕ СОБЫТИЕ</text>
+    <text x="912" y="722" font-size="12.5" font-weight="600" fill="#334155">завершение Четвёртого мира</text>
+    <text x="912" y="750" font-size="10" letter-spacing="1" fill="#94a3b8">ЧТО ПОСЛЕ</text>
+    <text x="912" y="768" font-size="12.5" font-weight="600" fill="#334155">переход в Пятый мир</text>
+  </g>
+
+  <text x="600" y="815" text-anchor="middle" font-size="12" fill="#94a3b8">Эсхатология мировых религий · инфографика 2 из 3</text>
+</svg>
